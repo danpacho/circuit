@@ -1,3 +1,3 @@
-const HELLOW = "WORLD";
+const HELLOW = "WORLD"
 
-export { HELLOW };
+export { HELLOW }
