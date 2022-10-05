@@ -13,6 +13,23 @@
             {
                 "ignoreDeclarationSort": true
             }
+        ],
+        "import/order": [
+            "error",
+            {
+                "alphabetize": { "order": "asc", "caseInsensitive": true },
+                "groups": [
+                    "builtin",
+                    "external",
+                    "internal",
+                    "parent",
+                    "sibling",
+                    "index",
+                    "object"
+                ],
+                "newlines-between": "never",
+                "pathGroupsExcludedImportTypes": ["builtin"]
+            }
         ]
     },
     "parserOptions": {
