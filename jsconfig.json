@@ -5,6 +5,8 @@
         "checkJs": true,
         "noEmit": true,
         "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "typeRoots": ["./node_modules/@types"],
         "forceConsistentCasingInFileNames": true
     },
     "include": ["src"],
