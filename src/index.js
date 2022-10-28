@@ -1,3 +1,6 @@
-const HELLOW = "WORLD"
+import appStyle from "./style/hellow.module.css"
 
-export { HELLOW }
+const App = document.getElementById("app")
+
+App.classList.add(appStyle.appFont)
+App.innerHTML = `<div class="hellow">Vanilla template</div>`
